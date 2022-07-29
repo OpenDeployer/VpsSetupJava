@@ -26,6 +26,15 @@ BasicMinecraftDeployer.sh is a bash program that will install the dependencies n
 - 👨🏻‍💻 Login 42Intra: **mathmart**
 
 <h2 align="left">🏗️ How to use:</h2>
+
+<p align="left">for people in a hurry or uninitiated :</p>
+
+```bash
+apt-get update -y && apt-get upgrade -y
+apt-get install -y curl
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/mmartini42/OpenDeployer/main/BasicMinecraftDeployer.sh)"
+```
+
 <p align="left">Prerequisites for downloading :</p>
 
 ```bash
